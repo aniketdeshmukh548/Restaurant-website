@@ -35,6 +35,7 @@ const AvaliableMeals=()=>{
     name={meal.name}
     description={meal.description}
     price={meal.price} />)
+   // console.log(mealsList)
     return (
         <section className={classes.meals}>
             <Card>
